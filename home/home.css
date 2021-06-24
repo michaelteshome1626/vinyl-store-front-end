@@ -1,5 +1,19 @@
+body{
+    background: rgb(26, 25, 21);
+}
+
 #logo{
     float: left;
+    background-color: rgb(247, 202, 22);
+    background-image: radial-gradient(circle, #e5d9b6, #d8c690, #cbb26a, #be9e44);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 800;
+    font-size: 3em;
 }
 
 #head-links-container{
@@ -14,4 +28,10 @@
     display: flex;
     flex-direction: row;
     
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
