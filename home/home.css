@@ -42,6 +42,7 @@ body{
     float: right;
     display: flex;
     flex-direction: row;
+    transform: translateY(-1vh);
 }
 
 #sign-up{
@@ -52,6 +53,14 @@ body{
     font-family: 'Roboto', sans-serif;
     width: 8vw;
     margin-left: 2vw;
+}
+
+#main-text{
+    width: 45%;
+    background: red;
+    font-size: 5vw;
+    /* float: left; */
+    color: white;
 }
 
 
