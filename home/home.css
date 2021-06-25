@@ -57,11 +57,33 @@ body{
 
 #main-text{
     width: 45%;
-    background: red;
+    /* background: red; */
     font-size: 5vw;
     /* float: left; */
     color: white;
 }
+
+#main{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* background: green; */
+    width: 100%;
+}
+
+#vinyls-container{
+    width: 45%;
+}
+
+.vinyl-image{
+    width: 100%;
+}
+
+.vinyl-description{
+    text-align: center;
+    color: white;
+}
+
 
 
 /* #header{
