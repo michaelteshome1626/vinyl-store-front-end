@@ -1,6 +1,10 @@
 body{
-    background: rgb(26, 25, 21);
+    /* background: rgb(26, 25, 21); */
     font-family: 'Fjalla One', sans-serif;
+    background: linear-gradient(to top right, black, rgb(48, 32, 0), rgb(69, 46, 0), rgb(92, 61, 0), rgb(130, 87, 0), rgb(176, 117, 0), rgb(245, 163, 0));
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
 }
 
 #logo{
@@ -52,8 +56,15 @@ body{
     font-weight: 700;
     font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
-    width: 8vw;
+    width: 6vw;
+    height: 3.5vh;
     margin-left: 2vw;
+}
+
+#sign-up:hover{
+    background: rgb(26, 25, 21);
+    color: gold;
+    cursor: pointer;
 }
 
 #main-text{
