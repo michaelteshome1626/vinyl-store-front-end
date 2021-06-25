@@ -8,6 +8,12 @@ body{
     min-height: 100%;
 }
 
+#header{
+    transform: translateY(2vh);
+    -webkit-transform: translateY(2vh);
+    -moz-transform: translateY(2vh);
+}
+
 #logo{
     float: left;
     background-color: rgb(247, 202, 22);
@@ -51,7 +57,7 @@ body{
     transform: translateY(-1vh);
 }
 
-#sign-up{
+.sign-up{
     background: gold;
     border: 0;
     font-weight: 700;
@@ -62,7 +68,7 @@ body{
     margin-left: 2vw;
 }
 
-#sign-up:hover{
+.sign-up:hover{
     background: rgb(26, 25, 21);
     color: gold;
     cursor: pointer;
@@ -90,10 +96,13 @@ body{
     align-items: flex-start;
     /* background: green; */
     width: 100%;
+    transform: translateY(5vh);
+    -webkit-transform: translateY(5vh);
+    -moz-transform: translateY(5vh);
 }
 
 #vinyls-container{
-    width: 45%;
+    width: 55%;
 }
 
 .vinyl-display{
@@ -121,10 +130,22 @@ body{
 #prompt-container{
     display: flex;
     flex-direction: row;
+    transform: translateY(-35vh);
+    -webkit-transform: translateY(-15vh);
+    -moz-transform: translateY(-15vh);
+    width: 20%;
+    margin-left: 1vw;
+    /* background: pink; */
 }
 
 #prompt{
     color: gold;
+}
+
+#sign-up-prompt{
+    transform: translateY(1vh);
+    -webkit-transform: translateY(1vh);
+    -moz-transform: translateY(1vh);
 }
 
 @keyframes color-change{
