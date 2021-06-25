@@ -95,6 +95,13 @@ body{
     width: 45%;
 }
 
+.vinyl-display{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .vinyl-image{
     width: 100%;
 }
