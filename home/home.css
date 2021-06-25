@@ -3,8 +3,9 @@ body{
     font-family: 'Fjalla One', sans-serif;
     background: linear-gradient(to top right, black, rgb(48, 32, 0), rgb(69, 46, 0), rgb(92, 61, 0), rgb(130, 87, 0), rgb(176, 117, 0), rgb(245, 163, 0));
     background-position: center;
-    background-repeat: none;
-    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-size:auto;
+    min-height: 100%;
 }
 
 #logo{
@@ -100,6 +101,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    animation-name: transitions;
+    animation-duration: 2.5s;
+    animation-direction:alternate;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
 }
 
 .vinyl-image{
@@ -111,10 +118,14 @@ body{
     color: white;
 }
 
-
 @keyframes color-change{
     from {color: white;}
     to {color: rgb(255, 189, 46);}
+}
+
+@keyframes transitions{
+    from {opacity: 0.4;}
+    to {opacity: 1;}
 }
 /* #header{
     display: flex;
