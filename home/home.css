@@ -110,7 +110,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    /* background: red; */
     animation-name: transitions;
     animation-duration: 5s;
     animation-direction:normal;
