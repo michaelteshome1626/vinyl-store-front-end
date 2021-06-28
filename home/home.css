@@ -148,6 +148,30 @@ body{
     -moz-transform: translateY(1vh);
 }
 
+#footer{
+    background: linear-gradient(to right, black, rgb(48, 32, 0), rgb(69, 46, 0), rgb(92, 61, 0));
+    margin: 0;
+    position:absolute;
+    left: 0;
+    right: 0;
+}
+
+.icon{
+    font-size: 2rem;
+    width: fit-content;
+    transform: translateX(2vw);
+    /* background: red; */
+}
+
+
+.foot-link{
+    color: white;
+}
+
+.foot-link:hover{
+    color: gold;
+}
+
 @keyframes color-change{
     from {color: white;}
     to {color: rgb(255, 189, 46);}
