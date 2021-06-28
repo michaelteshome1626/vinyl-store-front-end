@@ -114,7 +114,7 @@ body{
     animation-name: transitions;
     animation-duration: 5s;
     animation-direction:normal;
-    animation-timing-function: linear;
+    animation-timing-function:ease;
     animation-iteration-count: infinite;
 }
 
