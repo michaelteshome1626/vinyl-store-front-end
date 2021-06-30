@@ -111,11 +111,11 @@ body{
     justify-content: center;
     align-items: center;
     /* background: red; */
-    animation-name: transitions;
+    /* animation-name: transitions;
     animation-duration: 5s;
     animation-direction:normal;
     animation-timing-function:ease;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
 }
 
 .vinyl-image{
@@ -150,19 +150,27 @@ body{
 
 #footer{
     background: linear-gradient(to right, black, rgb(48, 32, 0), rgb(69, 46, 0), rgb(92, 61, 0));
-    margin: 0;
+    margin: 0.5vw;
     position:absolute;
     left: 0;
     right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transform: translateY(1vw);
 }
 
 .icon{
     font-size: 2rem;
-    width: fit-content;
-    transform: translateX(2vw);
+    display: inline-block;
+    /* width: fit-content; */
+    /* transform: translateX(2vw); */
     /* background: red; */
 }
 
+#links{
+    float: right;
+}
 
 .foot-link{
     color: white;
@@ -172,6 +180,43 @@ body{
     color: gold;
 }
 
+#tag-line{
+    color: gold;
+    background-image: radial-gradient(circle, #e5d9b6, #d8c690, #cbb26a, #be9e44, #9c7e2a, #875c07);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-style:oblique;
+}
+
+#share-box{
+    border-style: double;
+    border-color: gold;
+}
+
+#share-box > legend {
+    color: gold;
+}
+
+#extra-links{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+    grid-column-gap: 0.5vw;
+    justify-content:space-around;
+    align-content:space-between;
+    /* margin: 1vw; */
+}
+
+.e-links{
+    color: white;
+    text-decoration:none;
+}
+.e-links:hover{
+    color: gold;
+}
 @keyframes color-change{
     from {color: white;}
     to {color: rgb(255, 189, 46);}
