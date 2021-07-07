@@ -217,6 +217,14 @@ body{
 .e-links:hover{
     color: gold;
 }
+
+::-webkit-scrollbar{
+    background: rgb(255, 196, 0);
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(122, 73, 9);
+}
 @keyframes color-change{
     from {color: white;}
     to {color: rgb(255, 189, 46);}
