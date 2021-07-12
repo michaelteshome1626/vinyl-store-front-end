@@ -50,7 +50,9 @@ body{
 }
 
 .form-input{
-    font-size: 2vw;
+    font-size: 1.5vw;
+    background: rgb(68,68, 68);
+    color: white;
 }
 
 #submit{

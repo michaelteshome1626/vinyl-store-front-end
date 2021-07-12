@@ -57,6 +57,10 @@ body{
     transform: translateY(-1vh);
 }
 
+#sign-up-head{
+    transform: translateY(-0.5vh);
+}
+
 #login-link{
     font-family: inherit;
     color: white;
@@ -204,6 +208,7 @@ body{
 #share-box{
     border-style: double;
     border-color: gold;
+    height: fit-content;
 }
 
 #share-box > legend {
@@ -212,11 +217,11 @@ body{
 
 #extra-links{
     display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
     grid-column-gap: 0.5vw;
     justify-content:space-around;
-    align-content:space-between;
+    /* align-content:space-between; */
     /* margin: 1vw; */
 }
 
@@ -229,11 +234,14 @@ body{
 }
 
 ::-webkit-scrollbar{
-    background: rgb(255, 196, 0);
+    /* background: rgb(255, 196, 0); */
+    /* background: transparent; */
+    background: linear-gradient(to bottom right, rgb(92, 61, 0), rgb(130, 87, 0), rgb(176, 117, 0), rgb(245, 163, 0));
 }
 
 ::-webkit-scrollbar-thumb{
     background: rgb(122, 73, 9);
+    border-radius: 1vw;
 }
 @keyframes color-change{
     from {color: white;}
