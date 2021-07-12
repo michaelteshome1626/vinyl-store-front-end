@@ -19,7 +19,7 @@
         </div>
 
         <div id="form-container">
-            <form action="../main/main.html" method="GET" id="form" >
+            <form  method="GET" id="form" onsubmit="return verifyPasswords()" >
                 <div class="form-package">
                     <label for="fname" class="form-label">First Name:</label><br>
                     <input type="text" id="fname" name="fname" class="form-input" required>
@@ -45,5 +45,26 @@
             </form>
         </div>
     </div>
+    <script>
+        function verifyPasswords(){
+            let p1 = document.getElementById("password").value;
+            let p2 = document.getElementById("password2").value;
+
+            if (p1 != p2){
+                alert("Passwords must match to sign up!");
+                document.getElementById("password").value = "";
+                document.getElementById("password2").value = "";
+                document.getElementById("password").focus();
+                return false;
+            }
+            else{
+                document.getElementById("form").action = "../main/main.html";
+                return true;
+            }
+
+            
+        }
+        
+    </script>
 </body>
 </html>

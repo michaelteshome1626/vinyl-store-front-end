@@ -68,12 +68,14 @@ html{
 } */
 
 .form-input{
-    font-size: 2vw;
+    font-size: 1.5vw;
+    background: rgb(68,68, 68);
+    color: white;
 }
 
 #submit{
     width: 50%;
-    height: 10%;
+    height: 3vh;
     font-family: 'Roboto', 'sans-serif';
     background: gold;
     border: 0;
