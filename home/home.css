@@ -57,6 +57,16 @@ body{
     transform: translateY(-1vh);
 }
 
+#login-link{
+    font-family: inherit;
+    color: white;
+    text-decoration: none;
+}
+
+#login-link:hover{
+    color: gold;
+}
+
 .sign-up{
     background: gold;
     border: 0;
