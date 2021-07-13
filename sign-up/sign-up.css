@@ -11,6 +11,7 @@ body{
     align-items: center;
     background: linear-gradient(to bottom right, black, rgb(48, 32, 0), rgb(69, 46, 0), rgb(92, 61, 0), rgb(130, 87, 0), rgb(176, 117, 0), rgb(245, 163, 0));
     font-family: 'Fjalla One', sans-serif;
+    margin: 0;
 }
 
 html{

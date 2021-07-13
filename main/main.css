@@ -1,0 +1,54 @@
+body{
+    display: grid;
+    grid-template-columns: 20vw 80vw;
+    margin: 0;
+}
+
+#menu{
+    height: 100vh;
+    background: rgb(33, 36, 41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#logo{
+    background-image: radial-gradient(circle, #e5d9b6, #d8c690, #cbb26a, #be9e44, #9c7e2a, #875c07);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 800;
+    font-size: 3em;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+#container{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* background: green; */
+}
+
+/* .menu-items{
+    background: red;
+} */
+
+.menu-links{
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-family: 'Lato', 'sans-serif';
+    font-weight: 600;
+}
+
+.menu-links:hover{
+    color: gold;
+}
