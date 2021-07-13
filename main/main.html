@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="main.css">
     <title>Main Page</title>
 </head>
 <body>
-    <p id="test"></p>
+    <div id="menu">
+        <div id="logo" title="VinylVille">VinylVille</div>
+        <div id="container">
+            <div class="menu-items"><a href="main.html" class="menu-links">Home</a></div>
+            <div class="menu-items"><a href="main.html" class="menu-links">Recommended</a></div>
+            <div class="menu-items"><a href="main.html" class="menu-links">Your Collection</a></div>
+            <div class="menu-items"><a href="main.html" class="menu-links">Settings</a></div>
+        </div>
+        
+    </div>
+
+    <div id="main-display">
+        <h1 id="greeting"></h1>
+    </div>
+    
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        //window.location.search gets the entire parameter string from
+        //the URL. the URLSearchParams interface gets the values
+        document.getElementById("greeting").innerHTML = "Hello " + urlParams.get('fname');
+    </script>
 </body>
 </html>
