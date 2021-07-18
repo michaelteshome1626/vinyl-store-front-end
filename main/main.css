@@ -3,7 +3,7 @@ body{
     grid-template-columns: 20vw 80vw;
     background: linear-gradient(to bottom right, black, rgb(48, 32, 0), rgb(69, 46, 0), rgb(92, 61, 0), rgb(130, 87, 0), rgb(176, 117, 0), rgb(245, 163, 0));
     margin: 0;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 #menu{
@@ -12,6 +12,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* position: fixed; */
+    /* position: absolute; */
+    /* position: static; */
 }
 
 #logo{
@@ -90,6 +93,12 @@ body{
     overflow: hidden;
     color: white;
 }
+
+#new-additions > h2{
+    color: gold;
+    font-family: 'Lato', 'sans-serif';
+}
+
 
 ::-webkit-scrollbar{
     /* background: transparent; */

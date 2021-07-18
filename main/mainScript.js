@@ -16,7 +16,16 @@ var vinyls = [
     ["resources/pop/purple-rain.jpg", "Purple Rain", "Prince"],
     ["resources/pop/sweetner.jpg", "Sweetener", "Ariana Granade"],
     ["resources/pop/when-we-all-fall-asleep.jpg", "When We All Fall Asleep, Where do We Go", "Billie Eilish"],
-    ["resources/pop/whitney.jpg", "Whitney", "Whitney Houston"]
+    ["resources/pop/whitney.jpg", "Whitney", "Whitney Houston"],
+    ["resources/rnb/a-seat-at-the-table.png", "A Seat at the Table", "Solange"],
+    ["resources/rnb/after-hours.jpeg", "After Hours", "The Weeknd"],
+    ["resources/rnb/anti.png", "Anti", "Rihanna"],
+    ["resources/rnb/baduizm.jpg", "baduizm", "Erykah Badu"],
+    ["resources/rnb/blond.jpeg", "blond", "Frank Ocean"],
+    ["resources/rnb/brown-sugar.jpeg", "Brown Sugar", "D'Angelo"],
+    ["resources/rnb/confessions.jpg", "Confessions", "Usher"],
+    ["resources/rnb/crazy-sexy-cool.png", "Crazy Sexy Cool", "TLC"],
+    ["resources/rnb/ctrl.jpeg", "Ctrl", "SZA"]
 ];
 
 // var popVinyls = [
